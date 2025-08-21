@@ -1,0 +1,115 @@
+
+#titulo {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    padding: 15px;
+
+    /* Fallback sólido */
+    background: rgb(20, 133, 167);
+
+    /* Degradados antiguos */
+    background: -moz-linear-gradient(top,rgba(87, 228, 228, 0.108), rgb(0, 136, 255)); /* Firefox antiguo */
+    background: -webkit-linear-gradient(top, lightblue, rgb(0, 166, 255)); /* Chrome/Safari antiguos */
+
+    /* Degradado moderno */
+    background: linear-gradient(to bottom, lightblue, rgb(0, 221, 255));
+
+    /* Bordes redondeados */
+    -webkit-border-radius: 30px; /* Chrome/Safari antiguos */
+    -moz-border-radius: 30px;    /* Firefox antiguo */
+    border-radius: 30px;         /* Moderno */
+
+    /* Sombra para darle relieve */
+    box-shadow: 50px 15px 15px rgb(128, 128, 128);
+    margin: 40px auto;/* Centrado automático */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#Subtitulo {
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    padding: 15px;
+
+    /* Fallback sólido */
+    background: blue;
+
+    /* Degradados antiguos */
+    background: -moz-linear-gradient(top, lightblue, rgba(33, 115, 124, 0.034)); /* Firefox antiguo */
+    background: -webkit-linear-gradient(top, lightblue, rgba(103, 161, 192, 0.192)); /* Chrome/Safari antiguos */
+
+    /* Degradado moderno */
+    background: linear-gradient(to bottom,lightblue, rgba(187, 165, 255, 0.182));
+
+    /* Bordes redondeados */
+    -webkit-border-radius: 30px; /* Chrome/Safari antiguos */
+    -moz-border-radius: 30px;    /* Firefox antiguo */
+    border-radius: 30px;         /* Moderno */
+
+    /* Sombra para darle relieve */
+    box-shadow: 50px 15px 15px rgb(184, 178, 208);
+    margin: 40px auto;/* Centrado automático */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#descripcion {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    padding: 15px;
+    /* Degradado moderno */
+    background: linear-gradient(to bottom, lightblue, rgba(235, 233, 231, 0.833));
+
+    /* Bordes redondeados */
+    -webkit-border-radius: 50px; /* Chrome/Safari antiguos */
+    -moz-border-radius: 50px;    /* Firefox antiguo */
+     border-radius: 50px;         /* Moderno */
+
+    /* Sombra para darle relieve */
+    box-shadow: 50px 15px 15px rgb(211, 202, 202);
+    margin: 40px auto;/* Centrado automático */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#imagenes img {
+    width: 350px;   /* Ajusta el tamaño que quieras */
+    height: 350px;  /* Fuerza que todas tengan el mismo alto */
+    object-fit: cover; /* Recorta para que no se deformen */
+    border-radius: 30px; /* Opcional: redondea bordes */
+    box-shadow: 50px 15px 15px rgba(163, 165, 165, 0.671);
+    margin: 40px auto;/* Centrado automático */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 10px solid rgb(195, 152, 236); /* Borde skyblue */
+}
+
+#contacto {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    padding: 3px;
+
+    /* Degradado moderno */
+    background: linear-gradient(to bottom, rgba(185, 219, 221, 0.085), rgba(171, 195, 231, 0.893));
+
+    /* Bordes redondeados */
+    -webkit-border-radius: 50px; /* Chrome/Safari antiguos */
+    -moz-border-radius: 50px;    /* Firefox antiguo */
+     border-radius: 50px;         /* Moderno */
+
+    /* Sombra para darle relieve */
+    box-shadow: 50px 15px 15px rgb(193, 191, 191);
+    margin: 40px auto;/* Centrado automático */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#descripcion-fotos {
+    text-align: center;
+    font-size: 20px;
+    color: lightcoral;
+    padding: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline; /* Subrayado */
+
+}
